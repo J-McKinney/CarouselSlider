@@ -14,6 +14,7 @@ class FadeEffectCarousel extends Component {
       loop: true, // allows the slides to loop from the last slide back to the first in that direction
       centeredSlides: true, // helps to center the slides
       parallax: true, // Helps focus the users attention to the slide in front/center
+      effect: "fade",
       autoplay: {
         delay: 2000,
         disableOnInteraction: false,
