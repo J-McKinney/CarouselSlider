@@ -18,6 +18,17 @@ class FadeEffectCarousel extends Component {
         delay: 2000,
         disableOnInteraction: false,
       },
+      fadeEffect: {
+        crossFade: true,
+      },
+      pagination: {
+        el: ".swiper-pagination", // little dots under the slides for navigation
+        clickable: true, // allows you to click on the little dots
+      },
+      navigation: {
+        nextEl: ".swiper-button-next", // arrows on the side of the slides
+        prevEl: ".swiper-button-prev", // arrows on the side of the slides
+      },
     });
   }
 
