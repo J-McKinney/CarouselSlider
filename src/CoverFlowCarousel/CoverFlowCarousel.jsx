@@ -5,7 +5,7 @@ import Swiper from "swiper";
 import "swiper/css/swiper.min.css";
 // your custom css must come second to overwrite
 // certain stylings in swiper.css
-import "./MyCarousel.css";
+import "./CoverFlowCarousel.css";
 
 class MyCarousel extends Component {
   componentDidMount() {
@@ -30,12 +30,12 @@ class MyCarousel extends Component {
         slideShadows: true, // Enables slides shadows
       },
       pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
+        el: ".swiper-pagination", // little dots under the slides for navigation
+        clickable: true, // allows you to click on the little dots
       },
       navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: ".swiper-button-next", // arrows on the side of the slides
+        prevEl: ".swiper-button-prev", // arrows on the side of the slides
       },
     });
   }
@@ -43,10 +43,10 @@ class MyCarousel extends Component {
     return (
       <div className="swiper-container">
         <div className="swiper-wrapper">
-          <div className="swiper-slide">Slide 1</div>
-          <div className="swiper-slide">Slide 2</div>
-          <div className="swiper-slide">Slide 3</div>
-          <div className="swiper-slide">Slide 4</div>
+          <div className="swiper-slide">Cover Flow Slide 1</div>
+          <div className="swiper-slide">Cover Flow Slide 2</div>
+          <div className="swiper-slide">Cover Flow Slide 3</div>
+          <div className="swiper-slide">Cover Flow Slide 4</div>
         </div>
         <div className="swiper-pagination" />
         <div className="swiper-button-prev" />
