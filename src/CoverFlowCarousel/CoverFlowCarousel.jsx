@@ -16,7 +16,11 @@ class CoverFlowCarousel extends Component {
       centeredSlides: true, // helps to center the slides
       slidesPerView: 2, // allows the slide you're looking at to be the centered slide with the slide before and the slide after to be hanging just off the page from the left and right of it
       parallax: true, // Helps focus the users attention to the slide in front/center
-      effect: "coverflow",
+      effect: "coverflow", // coverflow is the type of effect on the pictures
+      autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+      },
       coverflowEffect: {
         rotate: 50, // Slide rotate in degrees
         stretch: 0, // Stretch space between slides (in px)
@@ -34,6 +38,7 @@ class CoverFlowCarousel extends Component {
       },
     });
   }
+
   render() {
     return (
       <>
