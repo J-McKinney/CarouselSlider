@@ -3,3 +3,22 @@
   height: 28vw;
   background-color: antiquewhite;
 }
+
+.swiper-button-prev,
+.swiper-button-next {
+  transform: translateX(0);
+  opacity: 1;
+  visibility: hidden;
+}
+
+.swiper-container:hover > .swiper-button-prev {
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.swiper-container:hover > .swiper-button-next {
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+}
