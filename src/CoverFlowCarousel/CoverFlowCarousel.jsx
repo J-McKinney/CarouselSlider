@@ -15,7 +15,6 @@ class CoverFlowCarousel extends Component {
       loop: true, // allows the slides to loop from the last slide back to the first in that direction
       centeredSlides: true, // helps to center the slides
       slidesPerView: 2, // allows the slide you're looking at to be the centered slide with the slide before and the slide after to be hanging just off the page from the left and right of it
-      // COME BACK TO THE PARALLAX PORTION
       parallax: true, // Helps focus the users attention to the slide in front/center
       effect: "coverflow",
       coverflowEffect: {
