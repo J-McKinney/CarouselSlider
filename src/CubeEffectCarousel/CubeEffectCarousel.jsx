@@ -4,9 +4,9 @@ import Swiper from "swiper";
 //swiper css must come first
 import "swiper/css/swiper.min.css";
 // your custom css must come second to overwrite certain stylings in swiper.css
-import "./FlipEffectCarousel.css";
+import "./CubeEffectCarousel.css";
 
-class FlipEffectCarousel extends Component {
+class CubeEffectCarousel extends Component {
   componentDidMount() {
     this.swiper = new Swiper(".swiper-container", {
       speed: 800, // controls the speed between each slide when arrow click or grabCursor
@@ -26,10 +26,13 @@ class FlipEffectCarousel extends Component {
         nextEl: ".swiper-button-next", // arrows on the side of the slides
         prevEl: ".swiper-button-prev", // arrows on the side of the slides
       },
-      effect: "flip",
-      flipEffect: {
+      effect: "cube",
+      cubeEffect: {
         rotate: 30,
         slideShadows: true,
+        shadow: true,
+        shadowOffset: 20,
+        shadowScale: 0.94,
       },
     });
   }
@@ -39,10 +42,10 @@ class FlipEffectCarousel extends Component {
       <>
         <div className="swiper-container">
           <div className="swiper-wrapper">
-            <div className="swiper-slide">Flip Effect Slide 1</div>
-            <div className="swiper-slide">Flip Effect Slide 2</div>
-            <div className="swiper-slide">Flip Effect Slide 3</div>
-            <div className="swiper-slide">Flip Effect Slide 4</div>
+            <div className="swiper-slide">Cube Effect Slide 1</div>
+            <div className="swiper-slide">Cube Effect Slide 2</div>
+            <div className="swiper-slide">Cube Effect Slide 3</div>
+            <div className="swiper-slide">Cube Effect Slide 4</div>
           </div>
           <div className="swiper-pagination" />
           <div className="swiper-button-prev" />
@@ -53,4 +56,4 @@ class FlipEffectCarousel extends Component {
   }
 }
 
-export default FlipEffectCarousel;
+export default CubeEffectCarousel;
