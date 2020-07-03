@@ -8,6 +8,8 @@ class MyCarousel extends Component {
   componentDidMount() {
     this.swiper = new Swiper(".swiper-container", {
       grabCursor: true,
+      loop: true,
+      centeredSlides: true,
     });
   }
   render() {
