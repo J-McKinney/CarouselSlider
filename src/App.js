@@ -1,4 +1,5 @@
 import React from "react";
+import MyCarousel from "./SwiperCarousel/MyCarousel";
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -19,6 +20,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <MyCarousel />
     </div>
   );
 }
