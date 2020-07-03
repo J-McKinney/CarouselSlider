@@ -20,7 +20,7 @@ class MyCarousel extends Component {
       // and the slide after to be hanging just off the page from the left and right of it
       slidesPerView: 2,
       // COME BACK TO THE PARALLAX PORTION
-      // parallax: true,
+      //   parallax: true,
       effect: "coverflow",
       coverflowEffect: {
         rotate: 50, // Slide rotate in degrees
@@ -29,22 +29,28 @@ class MyCarousel extends Component {
         modifier: 1, // Effect multipler
         slideShadows: true, // Enables slides shadows
       },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
     });
   }
   render() {
     return (
       <div className="swiper-container">
         <div className="swiper-wrapper">
-          <hr />
           <div className="swiper-slide">Slide 1</div>
-          <hr />
           <div className="swiper-slide">Slide 2</div>
-          <hr />
           <div className="swiper-slide">Slide 3</div>
-          <hr />
           <div className="swiper-slide">Slide 4</div>
-          <hr />
         </div>
+        <div className="swiper-pagination" />
+        <div className="swiper-button-prev" />
+        <div className="swiper-button-next" />
       </div>
     );
   }
