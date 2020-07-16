@@ -50,7 +50,6 @@ class CoverFlowCarousel extends Component {
             <div className="swiper-slide">Cover Flow Slide 2</div>
             <div className="swiper-slide">Cover Flow Slide 3</div>
             <div className="swiper-slide">Cover Flow Slide 4</div>*/}
-
             <div className="swiper-slide">
               <img
                 style={{ height: "600px" }}
@@ -81,6 +80,22 @@ class CoverFlowCarousel extends Component {
                 className="d-block w-100"
                 src={`images/night-moon.jpg`}
                 alt="Fourth slide"
+              />
+            </div>
+            <div className="swiper-slide">
+              <img
+                style={{ height: "600px" }}
+                className="d-block w-100"
+                src={`images/paris.jpg`}
+                alt="Fifth slide"
+              />
+            </div>
+            <div className="swiper-slide">
+              <img
+                style={{ height: "600px" }}
+                className="d-block w-100"
+                src={`images/rocky-beach.jpg`}
+                alt="Sixth slide"
               />
             </div>
           </div>
