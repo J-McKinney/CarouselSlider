@@ -17,11 +17,13 @@ class CoverFlowCarousel extends Component {
       slidesPerView: 2, // allows the slide you're looking at to be the centered slide with the slide before and the slide after to be hanging just off the page from the left and right of it
       parallax: true, // Helps focus the users attention to the slide in front/center
       effect: "coverflow", // coverflow is the type of effect on the pictures
-      autoplay: { // allows for autoplay for the slides
+      autoplay: {
+        // allows for autoplay for the slides
         delay: 2000, // a delay for each slide before it flips to the next one
         disableOnInteraction: false, // if you want to stop autoplay with a click to the slides
       },
-      coverflowEffect: { // the effect that you want to use
+      coverflowEffect: {
+        // the effect that you want to use
         rotate: 50, // Slide rotate in degrees
         stretch: 0, // Stretch space between slides (in px)
         depth: 100, // Depth offset in px (slides translate in Z axis)
@@ -44,10 +46,43 @@ class CoverFlowCarousel extends Component {
       <>
         <div className="swiper-container">
           <div className="swiper-wrapper">
-            <div className="swiper-slide">Cover Flow Slide 1</div>
+            {/*<div className="swiper-slide">Cover Flow Slide 1</div>
             <div className="swiper-slide">Cover Flow Slide 2</div>
             <div className="swiper-slide">Cover Flow Slide 3</div>
-            <div className="swiper-slide">Cover Flow Slide 4</div>
+            <div className="swiper-slide">Cover Flow Slide 4</div>*/}
+
+            <div className="swiper-slide">
+              <img
+                style={{ height: "600px" }}
+                className="d-block w-100"
+                src={`images/hong-kong.jpg`}
+                alt="First slide"
+              />
+            </div>
+            <div className="swiper-slide">
+              <img
+                style={{ height: "600px" }}
+                className="d-block w-100"
+                src={`images/marsh.jpg`}
+                alt="Second slide"
+              />
+            </div>
+            <div className="swiper-slide">
+              <img
+                style={{ height: "600px" }}
+                className="d-block w-100"
+                src={`images/mountain-range.jpg`}
+                alt="Third slide"
+              />
+            </div>
+            <div className="swiper-slide">
+              <img
+                style={{ height: "600px" }}
+                className="d-block w-100"
+                src={`images/night-moon.jpg`}
+                alt="Fourth slide"
+              />
+            </div>
           </div>
           <div className="swiper-pagination" />
           <div className="swiper-button-prev" />
