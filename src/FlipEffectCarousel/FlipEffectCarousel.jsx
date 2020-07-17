@@ -41,6 +41,7 @@ class FlipEffectCarousel extends Component {
           <div className="swiper-wrapper">
             <div className="swiper-slide">
               <img
+                style={{ width: "70%", height: "500px" }}
                 className="d-block w-100"
                 src={`images/hong-kong.jpg`}
                 alt="First slide"
@@ -48,6 +49,7 @@ class FlipEffectCarousel extends Component {
             </div>
             <div className="swiper-slide">
               <img
+                style={{ width: "70%", height: "500px" }}
                 className="d-block w-100"
                 src={`images/marsh.jpg`}
                 alt="Second slide"
@@ -55,6 +57,7 @@ class FlipEffectCarousel extends Component {
             </div>
             <div className="swiper-slide">
               <img
+                style={{ width: "70%", height: "500px" }}
                 className="d-block w-100"
                 src={`images/mountain-range.jpg`}
                 alt="Third slide"
@@ -62,6 +65,7 @@ class FlipEffectCarousel extends Component {
             </div>
             <div className="swiper-slide">
               <img
+                style={{ width: "70%", height: "500px" }}
                 className="d-block w-100"
                 src={`images/night-moon.jpg`}
                 alt="Fourth slide"
@@ -69,6 +73,7 @@ class FlipEffectCarousel extends Component {
             </div>
             <div className="swiper-slide">
               <img
+                style={{ width: "70%", height: "500px" }}
                 className="d-block w-100"
                 src={`images/paris.jpg`}
                 alt="Fifth slide"
@@ -76,6 +81,7 @@ class FlipEffectCarousel extends Component {
             </div>
             <div className="swiper-slide">
               <img
+                style={{ width: "70%", height: "500px" }}
                 className="d-block w-100"
                 src={`images/rocky-beach.jpg`}
                 alt="Sixth slide"
@@ -86,6 +92,9 @@ class FlipEffectCarousel extends Component {
           <div className="swiper-button-prev" />
           <div className="swiper-button-next" />
         </div>
+        <br />
+        <br />
+        <br />
       </>
     );
   }
