@@ -1,8 +1,8 @@
 import React from "react";
-import CoverFlowCarousel from "./CoverFlowCarousel/CoverFlowCarousel";
+// import CoverFlowCarousel from "./CoverFlowCarousel/CoverFlowCarousel";
 // import FadeEffectCarousel from "./FadeEffectCarousel/FadeEffectCarousel";
 // import FlipEffectCarousel from "./FlipEffectCarousel/FlipEffectCarousel";
-// import CubeEffectCarousel from "./CubeEffectCarousel/CubeEffectCarousel";
+import CubeEffectCarousel from "./CubeEffectCarousel/CubeEffectCarousel";
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -11,7 +11,7 @@ function App() {
     <>
       <div className="App">
         <img src={logo} className="App-logo" alt="logo" />
-        <CoverFlowCarousel />
+        <CubeEffectCarousel />
         </div>
     </>
   );

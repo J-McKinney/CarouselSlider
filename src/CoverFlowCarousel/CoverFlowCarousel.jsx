@@ -46,10 +46,6 @@ class CoverFlowCarousel extends Component {
       <>
         <div className="swiper-container">
           <div className="swiper-wrapper">
-            {/*<div className="swiper-slide">Cover Flow Slide 1</div>
-            <div className="swiper-slide">Cover Flow Slide 2</div>
-            <div className="swiper-slide">Cover Flow Slide 3</div>
-            <div className="swiper-slide">Cover Flow Slide 4</div>*/}
             <div className="swiper-slide">
               <img
                 className="d-block w-100"
