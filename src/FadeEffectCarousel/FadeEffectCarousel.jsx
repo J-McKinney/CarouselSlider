@@ -14,13 +14,13 @@ class FadeEffectCarousel extends Component {
       loop: true, // allows the slides to loop from the last slide back to the first in that direction
       centeredSlides: true, // helps to center the slides
       parallax: true, // Helps focus the users attention to the slide in front/center
-      effect: "fade",
-      autoplay: {
-        delay: 2400,
-        disableOnInteraction: false,
+      autoplay: { // allows for autoplay for the slides
+        delay: 2400, // a delay for each slide before it flips to the next one
+        disableOnInteraction: false, // if you want to stop autoplay with a click to the slides
       },
-      fadeEffect: {
-        crossFade: true,
+      effect: "fade", // fadeEffect is the type of effect on the pictures
+      fadeEffect: { // the effect that you want to use
+        crossFade: true, // GOT TO FIGURE THIS ONE OUT////////////////////////////////////////////////////////////////////
       },
       pagination: {
         el: ".swiper-pagination", // little dots under the slides for navigation
