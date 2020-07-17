@@ -18,11 +18,11 @@ class CubeEffectCarousel extends Component {
         delay: 3000, // a delay for each slide before it flips to the next one
         disableOnInteraction: false, // if you want to stop autoplay with a click to the slides
       },
-      pagination: {
+      pagination: { // Object with navigation parameters
         el: ".swiper-pagination", // little dots under the slides for navigation
         clickable: true, // allows you to click on the little dots
       },
-      navigation: {
+      navigation: { // Object with navigation parameters
         nextEl: ".swiper-button-next", // arrows on the side of the slides
         prevEl: ".swiper-button-prev", // arrows on the side of the slides
       },
@@ -30,9 +30,9 @@ class CubeEffectCarousel extends Component {
       cubeEffect: { // the effect that you want to use
         rotate: 30, // Slide rotate in degrees
         slideShadows: true, // Enables slides shadows
-        shadow: true, // GOT TO FIGURE THIS ONE OUT////////////////////////////////////////////////////////////////////
-        shadowOffset: 20, // GOT TO FIGURE THIS ONE OUT////////////////////////////////////////////////////////////////////
-        shadowScale: 0.94, // GOT TO FIGURE THIS ONE OUT////////////////////////////////////////////////////////////////////
+        shadow: true, // Enables main slider shadow
+        shadowOffset: 20, // Main shadow offset in px
+        shadowScale: 0.94, // Main shadow scale ratio
       },
     });
   }

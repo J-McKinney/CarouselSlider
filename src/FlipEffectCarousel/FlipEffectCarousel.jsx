@@ -18,11 +18,11 @@ class FlipEffectCarousel extends Component {
         delay: 2000, // a delay for each slide before it flips to the next one
         disableOnInteraction: false, // if you want to stop autoplay with a click to the slides
       },
-      pagination: {
+      pagination: { // Object with navigation parameters
         el: ".swiper-pagination", // little dots under the slides for navigation
         clickable: true, // allows you to click on the little dots
       },
-      navigation: {
+      navigation: { // Object with navigation parameters
         nextEl: ".swiper-button-next", // arrows on the side of the slides
         prevEl: ".swiper-button-prev", // arrows on the side of the slides
       },

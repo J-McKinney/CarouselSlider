@@ -27,11 +27,11 @@ class CoverFlowCarousel extends Component {
         modifier: 1, // Effect multipler
         slideShadows: true, // Enables slides shadows
       },
-      pagination: {
+      pagination: { // Object with navigation parameters
         el: ".swiper-pagination", // little dots under the slides for navigation
         clickable: true, // allows you to click on the little dots
       },
-      navigation: {
+      navigation: { // Object with navigation parameters
         nextEl: ".swiper-button-next", // arrows on the side of the slides
         prevEl: ".swiper-button-prev", // arrows on the side of the slides
       },

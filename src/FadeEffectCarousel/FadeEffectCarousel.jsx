@@ -20,13 +20,13 @@ class FadeEffectCarousel extends Component {
       },
       effect: "fade", // fadeEffect is the type of effect on the pictures
       fadeEffect: { // the effect that you want to use
-        crossFade: true, // GOT TO FIGURE THIS ONE OUT////////////////////////////////////////////////////////////////////
+        crossFade: true, // Enables slides cross fade
       },
-      pagination: {
+      pagination: { // Object with navigation parameters
         el: ".swiper-pagination", // little dots under the slides for navigation
         clickable: true, // allows you to click on the little dots
       },
-      navigation: {
+      navigation: { // Object with navigation parameters
         nextEl: ".swiper-button-next", // arrows on the side of the slides
         prevEl: ".swiper-button-prev", // arrows on the side of the slides
       },
