@@ -4,6 +4,13 @@
   background-color: antiquewhite;
 }
 
+/* .swiper-slide {
+  text-align: center;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+} */
+
 .swiper-button-prev,
 .swiper-button-next {
   transform: translateX(0);
@@ -21,10 +28,4 @@
   transform: translateX(0);
   opacity: 1;
   visibility: visible;
-}
-
-.img {
-  height: 400px;
-  width: 400px;
-  object-fit: cover;
 }
