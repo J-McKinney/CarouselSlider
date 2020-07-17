@@ -4,6 +4,11 @@
   background-color: antiquewhite;
 }
 
+.img {
+  height: 400px;
+  width: 720px;
+}
+
 .swiper-button-prev,
 .swiper-button-next {
   transform: translateX(0);
