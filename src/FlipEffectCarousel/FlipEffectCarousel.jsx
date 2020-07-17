@@ -39,10 +39,48 @@ class FlipEffectCarousel extends Component {
       <>
         <div className="swiper-container">
           <div className="swiper-wrapper">
-            <div className="swiper-slide">Flip Effect Slide 1</div>
-            <div className="swiper-slide">Flip Effect Slide 2</div>
-            <div className="swiper-slide">Flip Effect Slide 3</div>
-            <div className="swiper-slide">Flip Effect Slide 4</div>
+            <div className="swiper-slide">
+              <img
+                className="d-block w-100"
+                src={`images/hong-kong.jpg`}
+                alt="First slide"
+              />
+            </div>
+            <div className="swiper-slide">
+              <img
+                className="d-block w-100"
+                src={`images/marsh.jpg`}
+                alt="Second slide"
+              />
+            </div>
+            <div className="swiper-slide">
+              <img
+                className="d-block w-100"
+                src={`images/mountain-range.jpg`}
+                alt="Third slide"
+              />
+            </div>
+            <div className="swiper-slide">
+              <img
+                className="d-block w-100"
+                src={`images/night-moon.jpg`}
+                alt="Fourth slide"
+              />
+            </div>
+            <div className="swiper-slide">
+              <img
+                className="d-block w-100"
+                src={`images/paris.jpg`}
+                alt="Fifth slide"
+              />
+            </div>
+            <div className="swiper-slide">
+              <img
+                className="d-block w-100"
+                src={`images/rocky-beach.jpg`}
+                alt="Sixth slide"
+              />
+            </div>
           </div>
           <div className="swiper-pagination" />
           <div className="swiper-button-prev" />
