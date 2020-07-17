@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Swiper from "swiper";
-// CSS
-
+////////////CSS////////////
 //swiper css must come first
 import "swiper/css/swiper.min.css";
 // your custom css must come second to overwrite certain stylings in swiper.css
