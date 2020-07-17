@@ -9,13 +9,13 @@ import "./CubeEffectCarousel.css";
 class CubeEffectCarousel extends Component {
   componentDidMount() {
     this.swiper = new Swiper(".swiper-container", {
-      speed: 800, // controls the speed between each slide when arrow click or grabCursor
+      speed: 900, // controls the speed between each slide when arrow click or grabCursor
       grabCursor: true, // little hand cursor over slides
       loop: true, // allows the slides to loop from the last slide back to the first in that direction
       centeredSlides: true, // helps to center the slides
       parallax: true, // Helps focus the users attention to the slide in front/center
       autoplay: {
-        delay: 2000,
+        delay: 3000,
         disableOnInteraction: false,
       },
       pagination: {
