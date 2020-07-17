@@ -1,13 +1,9 @@
 .swiper-container {
   width: 100%;
-  height: 26vw;
-  background-color: antiquewhite;
-  /* background-color: #282c34; */
-}
-
-.img {
-  height: 400px;
-  width: 720px;
+  /* height: 26vw; */
+  height: 100%;
+  /* background-color: antiquewhite; */
+  background-color: #282c34;
 }
 
 .swiper-button-prev,

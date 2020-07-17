@@ -2,12 +2,13 @@
   width: 100%;
   height: 28vw;
   background-color: rgb(255, 255, 255);
-  /* background-color: #282c34; */
+  /* box-shadow: 7px 7px 7px 7px rgb(0, 0, 0); */
 }
 
 .img {
   height: 400px;
   width: 720px;
+  /* box-shadow: 7px 7px 7px 7px rgb(0, 0, 0); */
 }
 
 .swiper-button-prev,
