@@ -11,7 +11,11 @@ function App() {
     <>
       <div className="App">
         <img src={logo} className="App-logo" alt="logo" />
+        <br />
+        <br />
         <CoverFlowCarousel />
+        <br />
+        <br />
         <br />
         <br />
       </div>

@@ -15,7 +15,7 @@ class FadeEffectCarousel extends Component {
       centeredSlides: true, // helps to center the slides
       parallax: true, // Helps focus the users attention to the slide in front/center
       autoplay: { // allows for autoplay for the slides
-        delay: 2400, // a delay for each slide before it flips to the next one
+        delay: 2500, // a delay for each slide before it flips to the next one
         disableOnInteraction: false, // if you want to stop autoplay with a click to the slides
       },
       effect: "fade", // fadeEffect is the type of effect on the pictures

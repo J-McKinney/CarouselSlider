@@ -16,14 +16,14 @@ class CoverFlowCarousel extends Component {
       slidesPerView: 2, // allows the slide you're looking at to be the centered slide with the slide before and the slide after to be hanging just off the page from the left and right of it
       parallax: true, // Helps focus the users attention to the slide in front/center
       autoplay: { // allows for autoplay for the slides
-        delay: 2000, // a delay for each slide before it flips to the next one
+        delay: 2500, // a delay for each slide before it flips to the next one
         disableOnInteraction: false, // if you want to stop autoplay with a click to the slides
       },
       effect: "coverflow", // coverflow is the type of effect on the pictures
       coverflowEffect: { // the effect that you want to use
-        rotate: 50, // Slide rotate in degrees
+        rotate: 43, // Slide rotate in degrees
         stretch: 0, // Stretch space between slides (in px)
-        depth: 100, // Depth offset in px (slides translate in Z axis)
+        depth: 200, // Depth offset in px (slides translate in Z axis)
         modifier: 1, // Effect multipler
         slideShadows: true, // Enables slides shadows
       },
